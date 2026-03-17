@@ -7,6 +7,8 @@ Original Robot-Person-Following video is available [Bilibili](https://www.bilibi
 <img src="https://github.com/zhaojieting/Part_HOE/blob/main/docs/IROS2024-Video-2x.gif" width="760" height="480" />
 
 ## News
+🚀 TensorRT quantization scripts (FP16/FP32) are now available for PartHOE-s. See the "Quantizing PartHOE" section below (2026-03-17).
+
 🎉 The pre-trained and test checkpoints are all okay now (2024.11.25)~
 
 ⭐ Paper is released on Arxiv [PartHOE](https://arxiv.org/abs/2404.14139).
@@ -64,5 +66,10 @@ If you want to retrain the model, you must download the pre-trained weight [vit+
 ```
 python parthoe_train.py --cfg config/parthoe.yaml
 ```
+
+## Quantizing PartHOE 
+
+In order to quantize the PartHOE-s model, see the README under the `tensorrt` folder.
+
 ## Acknowledgement
 This work is built upon the open-source project [MEBOW](https://github.com/ChenyanWu/MEBOW) and [ViTPose](https://github.com/ViTAE-Transformer/ViTPose/tree/main). We extend our gratitude to the creators for their outstanding contributions!
