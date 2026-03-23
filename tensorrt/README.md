@@ -26,8 +26,6 @@ There is also a `verbose` flag available if you do not want to see all the logs 
 
 After the quantization, the script will run a test with random tensors to make sure that the dynamic batching is working properly and that the outputs are shaped as expected. 
 
-Given that we use ONNX
-
 ## Running the quantized model - `PartHOE_TRT.py`
 
 This file contains the standalone inference class to run the quantized model. 
